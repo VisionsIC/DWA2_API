@@ -1,30 +1,1 @@
-@charset "UTF-8";
-/* CSS Document */
-
-body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color:#9ED6FF;
-}
-
-#container{
-	width: 90%;
-	margin: 0 auto;
-	height: 600px;
-}
-
-.left {
-	width: 35%;
-	padding: 5%;
-	float: left;
-}
-
-.right {
-	width: 45%;
-	padding: 2%;
-	float: right;
-}
-
-h1 {
-	text-align: center;
-	padding: 2%;
-}
+@charset "UTF-8";/* CSS Document *//** Global CSS Styles **/body{ font-family: Arial, Helvetica, sans-serif; background-color: #9ED6FF; }#page_container{ width: 1500px; margin: 0 auto; height: 900px; }h1 { text-align: left; padding: 2%; color: hsla(205,100%,81%,1.00); text-shadow: 2px 2px hsla(0,0%,100%,1.00); background: #000; border-radius: 10px; box-shadow: 0 0 10px #000; }h2 { width: 351px; padding: 5px; margin-bottom: 50px; color: hsla(0,0%,100%,1.00); text-shadow: 0 0 10px #5CB9DF; background: #000; border-radius: 10px; box-shadow: 0 0 10px #000; }p { font-family: Verdana; }/** Time - Date CSS Styles **/.clock { margin-left: auto; margin-right: 0%; width: 1100px; margin-top: 0px; color: #fff; background: grey; }#date { float: right; margin-top: -40px; margin-right: 450px; font-family: Arial, Helvetica, sans-serif; font-size: 36px; text-align: left; text-shadow: 0 0 5px #00c6ff; }ul { position: relative; float: right; width: 800px; margin-top: -60px; padding: 0px; list-style: none; text-align: right; z-index: 2;}ul li { display: inline; font-size: 2em; text-align: right; margin-top: 0px; font-family: Arial, Helvetica, sans-serif; text-shadow: 0 0 10px #00c6ff; }#pnt { position: relative; -moz-animation: mymove 1s ease infinite; -webkit-animation: mymove 1s ease infinite; padding-left: 10px; padding-right: 10px; }@-webkit-keyframes mymove { 0% {opacity: 1.0; text-shadow: 0 0 40px #00c6ff; } 50% { opacity: 0; text-shadow: none; } 100% { opacity: 1.0; text-shadow: 0 0 40px #00c6ff; } }@-moz-keyframes mymove { 0% { opacity: 1.0; text-shadow: 0 0 40px #00c6ff; } 50% { opacity: 0; text-shadow: none; } 100% { opacity: 1.0; text-shadow: 0 0 40px #00c6ff; } }/** Container Section Layout CSS Styles **/#left { width: 360px; max-width: 100%; padding: 0%; float: left; background: #fff; border-radius: 10px; box-shadow: 0 0 10px #000; clear: left; }#right { width: 620px; height: 900px; padding: 0%; float: right; }#current_container { width: 360px; height: 410px; margin-top: 0px; text-align: center; background: linear-gradient(to bottom,#91abcb 0,#e1eaf5 0%,#b3ceee 100%);  box-shadow: 0 0 10px #000; border-radius: 10px; }#hourly_container { position: absolute; width: 1100px; height: 250px; margin: 0px 0px 0px -490px; text-align: center; background: #fff;  box-shadow: 0 0 10px #000; border-radius: 10px; }#seven_container { position: absolute; width: 1100px; height: 250px; margin: 250px 0px 0px -490px; text-align: center; background: #fff;  box-shadow: 0 0 10px #000; border-radius: 10px; }#current_h2 {  margin-top: 0px; }#hourly_h2 { width: 1090px; position: absolute; margin: 0px 0px 0px 0px; color: hsla(0,0%,100%,1.00); z-index: 1; }#seven_h2 { width: 1090px; position: absolute; margin: 0px 0px 0px 0px; color: hsla(0,0%,100%,1.00); z-index: 1; }/** JSON Injection DIV CSS Styles **/#current_location { position: absolute; text-align: center; margin: -20px 0px 0px 55px; font-size: 30px; color: #fff; text-shadow: 0 0 10px #000; z-index: 1; background: #000; border-radius: 10px;box-shadow: 0 0 10px #000; padding: 5px; }#current_icon img { width: 150px; margin-top: 20px; margin-bottom: 0px; }#current_weather { margin-top: 0px; margin-bottom: 10px; font-size: 1.6em; line-height: 0.4em;}#current_temp { font-size: 70px; color: #fff; text-shadow: 0 0 10px #000; }#current_temp > span { vertical-align: super; font-size: 0.5em; }#current_feel { margin-top: 20px; font-size: 1em; }#current_weather p, #current_feel p { color: #333; }
